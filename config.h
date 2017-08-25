@@ -11,6 +11,9 @@ static const char *fonts[]          = {
   "Droid Sans Mono for Powerline:size=8",
 };
 
+/* useless-gap */
+static const unsigned int gappx = 10; /* gap pixel between windows */
+
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
