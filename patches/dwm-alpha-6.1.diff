@@ -251,3 +251,4 @@ index 0362114..17fe373 100644
  zoom(const Arg *arg)
  {
  	Client *c = selmon->sel;
+
