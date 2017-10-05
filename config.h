@@ -31,7 +31,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "\uf120", "\uf268", "\uf269", "\uf198", "", "", "", "" };
+static const char *tags[] = { "\uf120", "\uf269", "\uf198" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -40,9 +40,8 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "st",       NULL,       NULL,       1,            0,           -1 },
-	{ "Chromium", NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Slack",    NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Slack",    NULL,       NULL,       1 << 2,       0,           -1 },
 };
 
 /* layout(s) */
