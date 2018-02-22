@@ -40,7 +40,8 @@ static const Rule rules[] = {
 	{ "st",       NULL,       NULL,       1,            0,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
 	{ "Slack",    NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Keybase",    NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Keybase",  NULL,       NULL,       1 << 3,       0,           -1 },
+	{ "Chrome",   NULL,       NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
