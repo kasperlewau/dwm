@@ -30,31 +30,31 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "" };
+static const char *tags[] = { "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	/* class      instance    title       tags mask     isfloating   monitor */
-	{ "st",       NULL,       NULL,       1,            0,           -1 },
-	{ "Firefox",  NULL,       NULL,       1 << 1,       0,           -1 },
-	{ "Slack",    NULL,       NULL,       1 << 2,       0,           -1 },
-	{ "Keybase",  NULL,       NULL,       1 << 3,       0,           -1 },
-	{ "Chrome",   NULL,       NULL,       1 << 4,       0,           -1 },
+	/* class					instance	   title       tags mask     isfloating   monitor */
+	{ "st",						NULL,		   NULL,       1,            0,           -1 },
+	{ "Firefox",				NULL,		   NULL,       1 << 1,       0,           -1 },
+	{ "Slack",					NULL,		   NULL,       1 << 2,       0,           -1 },
+	{ "Google-chrome-unstable", NULL,          NULL,       1 << 3,       0,           -1 },
+	{ "Keybase",				NULL,		   NULL,       1 << 4,       0,           -1 },
 };
 
 /* layout(s) */
-static const float mfact     = 0.65; /* factor of master area size [0.05..0.95] */
+static const float mfact     = 0.5; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "t |",      tile },    /* first entry is default */
-	{ "f |",      NULL },    /* no layout function means floating behavior */
-	{ "m |",      monocle },
+	{ "+",      tile },    /* first entry is default */
+	{ "/",      NULL },    /* no layout function means floating behavior */
+	{ "•",      monocle },
 };
 
 /* key definitions */
