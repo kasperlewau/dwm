@@ -12,14 +12,15 @@ static const char *fonts[]          = {
 /* useless-gap */
 static const unsigned int gappx = 10; /* gap pixel between windows */
 
-static const char col_gray1[]       = "#222222";
+/* static const char col_gray1[]       = "#222222"; */
+static const char col_gray1[]       = "#151515";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
 
-/* static const char col_bg[]       	= "#282c34"; */
-static const char col_bg[]       	= "#222222";
+/* static const char col_bg[]       	= "#222222"; */
+static const char col_bg[]       	= "#151515";
 static const char col_fg[]        	= "#abb2bf";
 static const char col_border[]      = "#000000";
 
