@@ -9,20 +9,9 @@ static const char *fonts[]          = {
   "Droid Sans Mono for Powerline:size=10",
 };
 
-/* useless-gap */
-static const unsigned int gappx = 10; /* gap pixel between windows */
-
-/* static const char col_gray1[]       = "#222222"; */
-static const char col_gray1[]       = "#151515";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
-
-/* static const char col_bg[]       	= "#222222"; */
-static const char col_bg[]       	= "#151515";
-static const char col_fg[]        	= "#abb2bf";
-static const char col_border[]      = "#000000";
+static const char col_bg[]       	= "#141210";
+static const char col_fg[]        	= "#b9b9b9";
+static const char col_border[]      = "#141210";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -31,19 +20,21 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "", "", "", "", "", "" };
+/* static const char *tags[] = { "one", "two", "three", "four", "five", "six" }; */
+static const char *tags[] = { "", "", "", "", "", "", "", "" };
 
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
+
 	/* class					instance	   title       tags mask     isfloating   monitor */
-	{ "st",						NULL,		   NULL,       1,            0,           -1 },
-	{ "Firefox",				NULL,		   NULL,       1 << 1,       0,           -1 },
-	{ "Slack",					NULL,		   NULL,       1 << 2,       0,           -1 },
-	{ "Google-chrome-unstable", NULL,          NULL,       1 << 3,       0,           -1 },
-	{ "Keybase",				NULL,		   NULL,       1 << 4,       0,           -1 },
+	{ "st",						NULL,		   NULL,       1,            0,           0 },
+	{ "Firefox",				NULL,		   NULL,       1 << 1,     	 0,           2 },
+	{ "Slack",					NULL,		   NULL,       1 << 2,       0,           2 },
+	{ "Google-chrome-unstable", NULL,          NULL,       1 << 3,       0,           2 },
+	{ "Keybase",				NULL,		   NULL,       1 << 4,       0,           2 },
 };
 
 /* layout(s) */
