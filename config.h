@@ -31,10 +31,10 @@ static const Rule rules[] = {
 
 	/* class					instance	   title       tags mask     isfloating   monitor */
 	{ "st",						NULL,		   NULL,       1,            0,           0 },
-	{ "Firefox",				NULL,		   NULL,       1 << 1,     	 0,           2 },
-	{ "Slack",					NULL,		   NULL,       1 << 2,       0,           2 },
-	{ "Google-chrome-unstable", NULL,          NULL,       1 << 3,       0,           2 },
-	{ "Keybase",				NULL,		   NULL,       1 << 4,       0,           2 },
+	{ "Firefox",				NULL,		   NULL,       1 << 1,     	 0,           0 },
+	{ "Slack",					NULL,		   NULL,       1 << 2,       0,           0 },
+	{ "Google-chrome-unstable", NULL,          NULL,       1 << 3,       0,           1 },
+	{ "Keybase",				NULL,		   NULL,       1 << 4,       0,           0 },
 };
 
 /* layout(s) */
